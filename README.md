@@ -2,7 +2,7 @@
 
 This is the backend server for **futball.io**, a football data viewer app. It acts as a secure proxy between the frontend and the [API-Football](https://www.api-football.com/) service, hiding the API key and handling request forwarding.
 
-The frontend of this project is available at [futball.io Frontend](https://github.com/ArfanAnulal/futball.io-frontend).
+The frontend of this project is available at [here](https://github.com/ArfanAnulal/futball.io-frontend).
 
 ## 📚 Table of Contents
 
