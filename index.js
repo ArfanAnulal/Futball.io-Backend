@@ -4,7 +4,12 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-app.use(cors()); // allow frontend to access
+app.use(cors({
+  origin: 'https://futball-io-frontend.vercel.app',
+  methods: ['GET'],
+  credentials: false
+}));
+
 const PORT = process.env.PORT || 5000;
 
 // Optional: Log all incoming requests (useful for debugging uptime pings)
